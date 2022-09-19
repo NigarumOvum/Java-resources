@@ -10,11 +10,11 @@ import java.util.ArrayList;
 public class Program {
 
     public static void main(String[] args) {
+        
         //Al descomentar la siguiente línea, habrá un error de compilación. No se pueden crear objetos de clases abstractas.
         //Space newSpace = new Space("Sala de juntas", 30);
 
         //HotDesk es una clase final. No se puede heredar, pero sí instanciar.
-
         HotDesk single = new HotDesk("Puesto 5");
         //A pesar de que el método getName fue definido en la clase base (Space), se puede acceder sin ningún problema.
         System.out.println("Nombre del puesto:  " + single.getName());

@@ -1,0 +1,1 @@
+Encapsula lo que varia
